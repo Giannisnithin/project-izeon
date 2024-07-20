@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    background-color:black;
+    
+}
+
+.logoimage{
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: -23px;
+    margin-bottom:10px ;
+    font-size: larger;
+    align-content: center;
+    padding-bottom: 20px;
+}
+
+.navoptions{
+    padding: 5px;
+    color: rgb(6, 86, 129);
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right:5px ;
+    border-radius: 10%;
+}
+
+.navoptions:hover{
+    color: black;
+    background-color:rgb(120, 189, 231) ;
+    font-size: large;
+}
+
+#login {
+    background-color: rgb(120, 189, 231) ;
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25%;
+    margin-top: -60px;
+    margin-right: 20px;
+    text-decoration: none;
+    float: right;
+}
+
+
+.mainimg{
+    margin-top: -10px;
+    position: relative;
+}
+
+.re{
+    margin-left: -1270px;
+    margin-top: 420px;
+    position: absolute;
+}
+
+.re:hover{
+    transform: translateX(1030px);
+    transition-duration: 5s;
+}
+
+.about{
+    background-color: rgb(6, 86, 129);
+    margin-top: -5px;
+}
+
+
+.welcomeinabout{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.welcomeinabout:hover{
+    color: white;
+}
+
+
+.aboutpara1{
+    margin-left:50px;
+    margin-right: 50px;
+    
+}
+
+.aboutpara1:hover{
+    color: white;
+}
+
+
+.aboutpara2{
+    margin-left:50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutpara2:hover{
+    color: white;
+}
+
+.category{
+    background-color: black;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.categoryhead{
+    text-align: center;
+    padding: 20px;
+    color: rgb(6, 86, 129);
+    background-color: black;
+}
+
+.categoryhead:hover{
+    color: white;
+}
+
+.categoryimgs{
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.category div a img:hover{
+    transform: scale(1.1);
+}
+
+.CATEGORYLABEL{
+    color: rgb(6, 86, 129);
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.CATEGORYLABEL:hover{
+    color: white;
+}
+
+.engineoil{
+    background-color: rgb(120, 189, 231);
+    overflow: hidden;
+}
+
+.engineoil video{
+    width: 50%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.engineoil h2{
+    float: right;
+    margin-right: 240px;
+    margin-top: 16px;
+}
+
+.engineoil h2:hover{
+    color: white;
+}
+
+.engineoil h4{
+    float: right;
+    width: 45%;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: -380px;
+    overflow: scroll;
+}
+
+.battery{
+    background-color: rgb(6, 86, 129);
+    overflow: hidden;
+}
+
+.battery video{
+    width: 50%;
+    margin-top: 60px;
+    padding: 20px;
+    float: right;
+}
+
+.battery h2{
+    margin-top: 17px;
+    margin-left: 260px;
+}
+
+.battery h2:hover{
+    color: white;
+}
+
+.battery h4{
+    width: 40%;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 40px;
+    overflow: scroll;
+}
+
+.brakepad{
+    background-color: rgb(120, 189, 231);
+    overflow: hidden;
+}
+
+.brakepad video{
+    width: 50%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.brakepad h2{
+    float: right;
+    margin-right: 240px;
+    margin-top: 16px;
+}
+
+.brakepad h2:hover{
+    color: white;
+}
+
+.brakepad h4{
+    float: right;
+    width: 45%;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: -380px;
+    overflow: scroll;
+}
+
+.puncture{
+    background-color: rgb(6, 86, 129);
+    overflow: hidden;
+}
+
+.puncture video{
+    width: 50%;
+    margin-top: 60px;
+    padding: 20px;
+    float: right;
+}
+
+.puncture h2{
+    margin-top: 17px;
+    margin-left: 260px;
+}
+
+.puncture h2:hover{
+    color: white;
+}
+
+.puncture h4{
+    width: 40%;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 40px;
+    overflow: scroll;
+}
+
+.airfilter{
+    background-color: rgb(120, 189, 231);
+    overflow: hidden;
+}
+
+.airfilter video{
+    width: 50%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.airfilter h2{
+    float: right;
+    margin-right: 240px;
+    margin-top: 16px;
+}
+
+.airfilter h2:hover{
+    color: white;
+}
+
+.airfilter h4{
+    float: right;
+    width: 45%;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: -380px;
+    overflow: scroll;
+}
+
+.exhaust{
+    background-color: rgb(6, 86, 129);
+    overflow: hidden;
+}
+
+.exhaust video{
+    width: 50%;
+    margin-top: 60px;
+    padding: 20px;
+    float: right;
+}
+
+.exhaust h2{
+    margin-top: 17px;
+    margin-left: 260px;
+}
+
+.exhaust h2:hover{
+    color: white;
+}
+
+.exhaust h4{
+    width: 40%;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 40px;
+    overflow: scroll;
+}
+
+.revcable{
+    background-color: rgb(120, 189, 231);
+    overflow: hidden;
+}
+
+.revcable video{
+    width: 50%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.revcable h2{
+    float: right;
+    margin-right: 240px;
+    margin-top: 16px;
+}
+
+.revcable h2:hover{
+    color: white;
+}
+
+.revcable h4{
+    float: right;
+    width: 45%;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: -380px;
+    overflow: scroll;
+}
+
+.polish{
+    background-color: rgb(6, 86, 129);
+    overflow: hidden;
+}
+
+.polish video{
+    width: 50%;
+    margin-top: 60px;
+    padding: 20px;
+    float: right;
+}
+
+.polish h2{
+    margin-top: 17px;
+    margin-left: 260px;
+}
+
+.polish h2:hover{
+    color: white;
+}
+
+.polish h4{
+    width: 40%;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 40px;
+    overflow: scroll;
+}
+
+.products{
+    background-color: rgb(120, 189, 231);
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-rows:1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.producthead{
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(120, 189, 231);
+}
+
+.producthead:hover{
+    color: rgb(255, 255, 255);
+}
+
+.productimgs{
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 10%; 
+}
+
+.products div a img:hover{
+    transform: scale(1.1);
+}
+
+.productlabel{
+    color: rgb(0, 0, 0);
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.productlabel:hover{
+    color: rgb(255, 255, 255);
+}
+
+.footerhead{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.footer a{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    margin-left: 20px;
+    
+}
+
+.footer a:hover{
+    color: white;
+    font-size: larger;
+}
+
+.grid3{
+    color: rgb(200, 200, 200);
+}
+
+.grid3 b:hover{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+article img{
+    border-radius: 5%;
+}
+
+.socialmedia img{
+    width: 50px;
+    padding: 3px;
+}
+
+.x{
+    margin-bottom: 8px;
+}
+
+.c{
+    background-color: black;
+    color: rgb(120, 189, 231);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.c:hover{
+    font-size: large;
+    color: white;
+}
+
+
+
+
